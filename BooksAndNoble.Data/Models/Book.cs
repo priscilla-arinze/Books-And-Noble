@@ -24,6 +24,6 @@ namespace BooksAndNoble.Data.Models
 
         [Required]
         [Column(TypeName = "decimal(6,2)")]
-        public string Price { get; set; } = null!;
+        public decimal Price { get; set; }
     }
 }

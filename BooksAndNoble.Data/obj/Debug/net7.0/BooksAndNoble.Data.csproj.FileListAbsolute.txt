@@ -1,0 +1,15 @@
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\bin\Debug\net7.0\BooksAndNoble.Data.deps.json
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\bin\Debug\net7.0\BooksAndNoble.Data.runtimeconfig.json
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\bin\Debug\net7.0\BooksAndNoble.Data.dll
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\bin\Debug\net7.0\BooksAndNoble.Data.pdb
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.dll
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\refint\BooksAndNoble.Data.dll
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.pdb
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\BooksAndNoble.Data.genruntimeconfig.cache
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\obj\Debug\net7.0\ref\BooksAndNoble.Data.dll
+C:\Users\prisc\Documents\aa_CODE\Project - Books-And-Noble\BooksAndNoble.Data\bin\Debug\net7.0\appsettings.json

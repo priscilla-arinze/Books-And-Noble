@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAndNoble", "BooksAndNoble.csproj", "{B484B084-6B81-41DE-9A00-0F479B847320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksAndNoble", "BooksAndNoble.csproj", "{B484B084-6B81-41DE-9A00-0F479B847320}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BCF9597-42E7-4C5C-8C19-C45CC9ED024D} = {1BCF9597-42E7-4C5C-8C19-C45CC9ED024D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAndNoble.Data", "..\BooksAndNoble.Data\BooksAndNoble.Data.csproj", "{1BCF9597-42E7-4C5C-8C19-C45CC9ED024D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksAndNoble.Data", "..\BooksAndNoble.Data\BooksAndNoble.Data.csproj", "{1BCF9597-42E7-4C5C-8C19-C45CC9ED024D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

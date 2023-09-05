@@ -11,11 +11,6 @@ namespace BooksAndNoble.Data.DataContext
 {
     internal class BooksAndNobleContext : DbContext
     {
-        // allows for database connection string dependency injection
-        public BooksAndNobleContext(DbContextOptions<BooksAndNobleContext> options)
-            :base(options)
-        {}
-
         public DbSet<Book> Books { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }

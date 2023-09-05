@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj": {}
+    "C:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj": {
+    "C:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj",
+        "projectUniqueName": "C:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj",
         "projectName": "BooksAndNoble.Data",
-        "projectPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj",
+        "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\BooksAndNoble.Data.csproj",
         "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\obj\\",
+        "outputPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\Project - Books-And-Noble\\BooksAndNoble.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,18 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[7.0.0, )"
