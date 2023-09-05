@@ -28,16 +28,17 @@ namespace BooksAndNoble.Data.DataContext
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseNpgsql(config.GetConnectionString("DBConnection"));
+                
+                /* Raw, insecure database connection string:
+                optionsBuilder.UseNpgsql(
+                    $"Host=..." +
+                    $"Database=..." +
+                    $"Username=..." +
+                    $"Password=..."
+                );
+                */
             }
             
-            /* Raw, insecure database connection string:
-            optionsBuilder.UseNpgsql(
-                $"Host=..." +
-                $"Database=..." +
-                $"Username=..." +
-                $"Password=..."
-            );
-            */
         }
     }
 }
