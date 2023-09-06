@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BooksAndNoble.Data.Models
 {
-    internal class Book
+    public class Book
     {
         [Key]
         public int Id { get; set; }

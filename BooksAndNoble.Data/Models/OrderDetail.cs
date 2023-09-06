@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BooksAndNoble.Data.Models
 {
-    internal class OrderDetail
+    public class OrderDetail
     {
         [Key]
         public int Id { get; set; }
