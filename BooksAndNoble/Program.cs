@@ -48,8 +48,9 @@ static void AddSampleBookstoDb(BooksAndNobleContext context)
 
 static void BooksMoreThan9Dollars(BooksAndNobleContext context)
 { 
+    // FluentAPI LINQ syntax
     var results = context.Books.Where(b => b.Price > 9).ToList();
-    /* OR:
+    /* OR: Query expression LINQ syntax
     var results = from book in context.Books
                   where book.Price > 9
                   select book;
