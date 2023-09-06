@@ -49,6 +49,11 @@ static void AddSampleBookstoDb(BooksAndNobleContext context)
 static void BooksMoreThan9Dollars(BooksAndNobleContext context)
 { 
     var results = context.Books.Where(b => b.Price > 9).ToList();
+    /* OR:
+    var results = from book in context.Books
+                  where book.Price > 9
+                  select book;
+    */
 
     Console.WriteLine($"Books that are more than $9:");
     foreach (var result in results)
