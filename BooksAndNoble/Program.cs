@@ -68,8 +68,40 @@ static void BooksMoreThan9Dollars(BooksAndNobleContext context)
     */
 }
 
+static void UpdatePrice(BooksAndNobleContext context, string bookTitle, string authorName, decimal newPrice)
+{
+    var result = context.Books
+                  .Where(
+                    b => b.Title.Contains(bookTitle) &&
+                    b.Author.Contains(authorName))
+                  .FirstOrDefault();
 
-AddSampleBookstoDb(_context);
+    if (result == null)
+    {
+        Console.WriteLine("No results found.");
+        return;
+    }
+
+    decimal oldPrice = result.Price;
+
+    if (result is Book)
+    {
+        result.Price = newPrice;
+    }
+
+    context.SaveChanges();
+
+    Console.WriteLine($"New Price alert for {result.Title} by {result.Author}: From ${oldPrice} to ${newPrice}");
+}
+
+
+//AddSampleBookstoDb(_context);
+
+Console.WriteLine("Old Prices:");
+BooksMoreThan9Dollars(_context);
+UpdatePrice(_context, "The Way of Kings", "Brandon Sanderson", 11.99M);
+
+Console.WriteLine("\nUpdated Prices:");
 BooksMoreThan9Dollars(_context);
 
 
