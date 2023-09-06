@@ -1,5 +1,7 @@
 ﻿using BooksAndNoble.Data.DataContext;
 using BooksAndNoble.Data.Models;
+using static System.Reflection.Metadata.BlobBuilder;
+using System;
 
 using BooksAndNobleContext _context = new BooksAndNobleContext();
 /* OR:
@@ -10,6 +12,7 @@ using BooksAndNobleContext _context = new BooksAndNobleContext();
         ...
     }
 */
+
 
 Book scythe_NealShusterman = new Book()
 {
@@ -42,3 +45,19 @@ Book sapiens_YuvalNoahHarari = new Book()
 _context.Add(sapiens_YuvalNoahHarari);
 
 _context.SaveChanges();
+
+
+
+var results = _context.Books.Where(b => b.Price > 9).ToList();
+
+Console.WriteLine($"Books that are more than $9:");
+foreach (var result in results)
+{
+    Console.WriteLine($"{result.Title} by {result.Author}");
+}
+/* OUTPUT:
+Books that are more than $9:
+Scythe by Neal Shusterman
+Sapiens: A Brief History of Humankind by Yuval Noah Harari
+*/
+
